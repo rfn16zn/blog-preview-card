@@ -81,6 +81,28 @@ body {
   color: var(--gray-950);
   padding: var(--space-50) var(--space-150);
   text-decoration: none;
+  font-size: var(--fs-med);
+  font-weight: var(--fw-900);
+  line-height: 1.5;
+}
+
+.content__date {
+  color: var(--gray-950);
+  font-size: var(--fs-med);
+  font-weight: var(--fw-500);
+  line-height: 1.5;
+}
+
+.content__title {
+  color: var(--gray-950);
+  font-size: var(--fs-lrg);
+  font-weight: var(--fw-900);
+  line-height: 1.5;
+}
+
+.content__text {
+  color: var(--gray-500);
   font-size: var(--fs-reg);
-  font-weight: var(--fw-700);
+  font-weight: var(--fw-500);
+  line-height: 1.5;
 }

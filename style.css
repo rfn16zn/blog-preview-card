@@ -39,3 +39,12 @@
   --fw-700: 700;
   --fw-500: 500;
 }
+
+body {
+  background-color: var(--yellow);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

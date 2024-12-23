@@ -106,3 +106,21 @@ body {
   font-weight: var(--fw-500);
   line-height: 1.5;
 }
+
+.card__author {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: var(--space-150);
+}
+
+.author__img {
+  width: 20%;
+}
+
+.author__name {
+  color: var(--gray-950);
+  font-size: var(--fs-med);
+  font-weight: var(--fw-900);
+  line-height: 1.5;
+}

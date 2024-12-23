@@ -19,3 +19,23 @@
   font-weight: 300 900;
   font-display: swap;
 }
+
+:root {
+  --yellow: #F4D04E;
+  --gray-950: #111111;
+  --gray-500: #6B6B6B;
+  --white: #FFF;
+
+  --space-300: 24px;
+  --space-150: 12px;
+  --space-100: 8px;
+  --space-50: 4px;
+
+  --fs-lrg: 24px;
+  --fs-reg: 16px;
+  --fs-med: 14px;
+
+  --fw-900: 900;
+  --fw-700: 700;
+  --fw-500: 500;
+}

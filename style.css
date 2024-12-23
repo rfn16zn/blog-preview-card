@@ -7,14 +7,14 @@
 }
 
 @font-face {
-  font-family: 'Figtree Light', sans-serif;
+  font-family: 'Figtree Light';
   src: url(/assets/fonts/Figtree-VariableFont_wght.woff2) format('woff2-variations');
   font-weight: 300 900;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Figtree Light Italic', sans-serif;
+  font-family: 'Figtree Light Italic';
   src: url(assets/fonts/Figtree-Italic-VariableFont_wght.woff2) format('woff2-variations');
   font-weight: 300 900;
   font-display: swap;
@@ -47,6 +47,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Figtree Light', sans-serif;
 }
 
 .card {
@@ -65,4 +66,21 @@ body {
 .illustration {
   width: 100%;
   border-radius: 10px;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-150);
+}
+
+.content__link {
+  align-self: flex-start;
+  background-color: var(--yellow);
+  border-radius: 4px;
+  color: var(--gray-950);
+  padding: var(--space-50) var(--space-150);
+  text-decoration: none;
+  font-size: var(--fs-reg);
+  font-weight: var(--fw-700);
 }

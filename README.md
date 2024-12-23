@@ -16,7 +16,7 @@ User should be able to:
 
 ### Links
 
-- Live preview here 👉 [Add live site URL here](https://rfn16zn.github.io/blog-preview-card/)
+- Live preview here 👉 [Blog Preview Card](https://rfn16zn.github.io/blog-preview-card/)
 
 ### Built with
 

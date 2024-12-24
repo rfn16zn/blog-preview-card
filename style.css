@@ -48,10 +48,16 @@ body {
   justify-content: center;
   align-items: center;
   font-family: 'Figtree Light', sans-serif;
+  padding: var(--space-300);
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .card {
-  width: 384px;
+  max-width: 384px;
   background-color: var(--white);
   border: solid 1px var(--gray-950);
   border-radius: 1.25rem;
